@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.izquierda{
+    background:#7be9ff;
+    height:100vh;
+    width:50%
+}
+
+.derecha{
+    background:url(avion.jpg);
+    background-size:cover;
+    background-position:center;
+    width:50%;
+    height:100vh;
+}
+
+#pantalla-wobbly-life{
+    display:flex;
+}
+.Wobbly{
+    color:yellow;
+}
+h1{
+    font-size:60px;
+    width:20%;
+    margin:10px;
+    margin-bottom:10px;
+    color:deepskyblue;
+}
+p{
+    font-size:40px;
+    padding:25px;
+    margin:auto;
+}
+a{
+    border: 3px solid rgb(23, 232, 110);
+     padding: 20px;
+      text-decoration:none;
+       color: rgb(246, 6, 6);
+        border-radius: 30px;
+         font-weight: bold;
+          display: inline-block;
+           margin-top: 30px; 
+}
+
+#videos{
+ background:yellow;
+}
